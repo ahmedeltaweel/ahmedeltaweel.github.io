@@ -53,7 +53,7 @@ export const LaterArticles = () => {
                         return (
                             <ArticleContainer>
                                 <h4>
-                                    <b>{item.pubDate.getFullYear()}-{item.pubDate.getMonth()}</b>
+                                    <b>{item.pubDate.toISOString().substr(0, 10)}</b>
                                     <ArticleLink href={item.link} target="_blank" rel="noreferrer">{item.title}</ArticleLink>
                                 </h4>
                             </ArticleContainer>
