@@ -12,7 +12,7 @@ const ArticleLink = styled.a`
     font-size: large;
    
 `
-const ArticleContainer = styled.a`
+const ArticleContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap:  nowrap;
@@ -51,7 +51,7 @@ export const LaterArticles = () => {
                 !articles ? 'loading ...' :
                     articles.map((item) => {
                         return (
-                            <ArticleContainer>
+                            <ArticleContainer key={item.pubDate}>
                                 <h4>
                                     <b>{item.pubDate.toISOString().substr(0, 10)}</b>
                                     <ArticleLink href={item.link} target="_blank" rel="noreferrer">{item.title}</ArticleLink>

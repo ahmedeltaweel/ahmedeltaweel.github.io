@@ -6,7 +6,6 @@ const AppContainer = styled.div`
   margin: auto;
   color: #000;
   border-radius: 15px;
-
 `
 
 
