@@ -26,6 +26,8 @@ export const Description = () => {
 
                 <p>- 📝 I casually write articles in <a href="https://dev.to/ahmedeltaweel" target="_blank" rel="noreferrer">dev.to</a></p>
 
+                <p>- 📷 Sometimes, I share my thoughts using videos on <a href="https://www.youtube.com/c/ahmedeltaweel2" target="_blank" rel="noreferrer">youtube</a></p>
+
                 <p>- 💬 Ask me about anything backend especially in <b>Python, Django, Flask, Bash, PostgresSql, Docker, gRPC, REST, ElasticSearch, Celery, Pub/Sub, CI/CD.</b></p>
 
                 <p>- 📫 How to reach me: <b>ahmed.m.eltaweel@outlook.com</b></p>
