@@ -2,6 +2,7 @@ import React from 'react';
 
 import { LaterArticles } from './LatestArticles';
 import { UserImage } from './UserImage';
+import { LatestVideos } from './Videos'
 
 
 import styled from 'styled-components'
@@ -22,13 +23,14 @@ export const Description = () => {
 
                 <p>- 🔭 I’m currently working as a backend Software Engineer at <a href="https://www.deliveryhero.com" target="_blank" rel="noreferrer">Delivery Hero</a></p>
 
-                <p>- 🌱 I’m currently learning <b>React</b>. Also I am reading about <b>Product Management, Psychology, History and self-development</b>.</p>
+                <p>- 🌱 I love reading about <b>Product/Engineering/Team Management, Psychology, History and self-development</b>.</p>
 
                 <p>- 📝 I casually write articles in <a href="https://dev.to/ahmedeltaweel" target="_blank" rel="noreferrer">dev.to</a></p>
 
-                <p>- 📷 Sometimes, I share my thoughts using videos on <a href="https://www.youtube.com/c/ahmedeltaweel2" target="_blank" rel="noreferrer">youtube</a></p>
+                <p>- 📷 Sometimes, I share my thoughts using videos on <a href="https://www.youtube.com/c/ahmedeltaweel2" target="_blank" rel="noreferrer">Youtube</a></p>
 
-                <p>- 💬 Ask me about anything backend especially in <b>Python, Django, Flask, Bash, PostgresSql, Docker, gRPC, REST, ElasticSearch, Celery, Pub/Sub, CI/CD.</b></p>
+                <p>- 💬 Ask me about anything backend especially in <b>Python, Django, Bash, PostgresSql, Docker, gRPC, REST, ElasticSearch, Celery, Pub/Sub, CI/CD, Service Oriented Architecture.</b></p>
+                <p>- 💬 Also you can ask me about <b>Agile, Software Testing, Software Release Process, move from monolith to SOA. </b></p>
 
                 <p>- 📫 How to reach me: <b>ahmed.m.eltaweel@outlook.com</b></p>
 
@@ -41,6 +43,7 @@ export const Description = () => {
 
             <UserImage />
             <LaterArticles />
+            <LatestVideos />
         </DescriptionContainer>
     );
 }
