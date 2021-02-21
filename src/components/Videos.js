@@ -21,6 +21,10 @@ const vidoeWidth = window.innerWidth > 420 ? 530 :  window.innerWidth - 50
 export const LatestVideos = () => {
     const videos = [
         {
+            title: 'WORDPRESS',
+            link: 'https://www.youtube.com/embed/iUA_Kt3HZEw'
+        },
+        {
             title: 'DEVOPS',
             link: 'https://www.youtube.com/embed/uQOeKDBm0mU'
         },
