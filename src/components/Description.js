@@ -19,7 +19,7 @@ export const Description = () => {
         <DescriptionContainer>
             <section>
                 <h1>Hi 👋, I'm Ahmed Taweel. Call me Taweel.</h1>
-                <h3>A product-driven software engineer with more than 5 years of experience working with national and international remote and in-office agile teams building B2C/B2B products.</h3>
+                <h3>A product-driven software engineer with more than 6 years of experience working with national and international remote and in-office agile teams building B2C/B2B products.</h3>
 
                 <p>- 🔭 I’m currently working as a backend Software Engineer at <a href="https://www.deliveryhero.com" target="_blank" rel="noreferrer">Delivery Hero</a></p>
 
